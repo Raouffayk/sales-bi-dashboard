@@ -1,0 +1,14 @@
+Profit =
+[Total Sales] - [Total Cost]
+
+Profit Margin % =
+DIVIDE ( [Profit], [Total Sales] )
+
+Return Rate % =
+DIVIDE ( [Return Quantity], [Total Quantity] )
+
+Avg Sales =
+AVERAGE ( Sales[SalesAmount] )
+
+Avg Unit Cost =
+AVERAGE ( Sales[UnitCost] )
