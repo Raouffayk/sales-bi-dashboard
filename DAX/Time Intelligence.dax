@@ -1,0 +1,8 @@
+MTD Sales =
+TOTALMTD ( [Total Sales], 'Date'[Date] )
+
+QTD Sales =
+TOTALQTD ( [Total Sales], 'Date'[Date] )
+
+Sales YTD =
+TOTALYTD ( [Total Sales], 'Date'[Date] )
