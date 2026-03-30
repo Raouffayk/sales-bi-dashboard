@@ -1,0 +1,7 @@
+Sales LY =
+CALCULATE ( [Total Sales], SAMEPERIODLASTYEAR ( 'Date'[Date] ) )
+
+Sales YTD LY =
+CALCULATE ( [Total Sales],
+    DATEADD ( DATESYTD ( 'Date'[Date] ), -1, YEAR )
+)
