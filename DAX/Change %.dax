@@ -1,0 +1,5 @@
+Sales Change % =
+DIVIDE ( [Total Sales] - [Sales LY], [Sales LY] )
+
+YTD Change % =
+DIVIDE ( [Sales YTD] - [Sales YTD LY], [Sales YTD LY] )
